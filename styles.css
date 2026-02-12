@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Play With Fire';
+    src: url('Play With Fire.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TIRES';
+    src: url('TIRES.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Starborn';
+    src: url('Starborn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header-text {
+    font-family: 'Play With Fire', cursive, sans-serif;
+    font-size: 60px;
+    color: #663399; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.birthday-text,
+.birthday-text * {
+    font-family: 'TIRES', cursive, sans-serif !important;
+    font-size: 60px !important;
+    color: #32CD32 !important;
+    text-align: center;
+    line-height: 1.1;
+
+    /* CRITICAL FIXES */
+    white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    hyphens: none !important;
+
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 20px 0 !important;
+}
+
+.accent-text,
+.accent-text * {
+    font-family: 'Starborn', cursive, sans-serif !important;
+    font-size: 30px !important;
+    color: #FFA500 !important;
+    text-align: left;
+
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 20px 0 !important;
+
+    white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    hyphens: none !important;
+}
