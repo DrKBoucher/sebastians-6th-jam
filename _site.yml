@@ -7,3 +7,6 @@ output:
       - lightbox/css/lightbox.min.css
     includes:
       after_body: lightbox.html
+
+resource_files:
+  - fonts/*

@@ -1,6 +1,10 @@
 ---
 title: ""
-output: html_document
+output:
+  html_document:
+    css: styles.css
+resource_files:
+  - fonts/*
 ---
 
 <div class="header-text">
