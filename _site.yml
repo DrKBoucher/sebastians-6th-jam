@@ -1,0 +1,9 @@
+name: "Sebastian's 6th Jam"
+
+output:
+  html_document:
+    css:
+      - styles.css
+      - lightbox/css/lightbox.min.css
+    includes:
+      after_body: lightbox.html
