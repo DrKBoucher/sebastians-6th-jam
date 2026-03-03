@@ -107,8 +107,8 @@ resource_files:
   <img src="photos/p20.jpeg">
 </a>
 
-<a href="photos/p21.jpeg" data-lightbox="party">
-  <img src="photos/p21.jpeg">
+<a href="photos/p21.jpg" data-lightbox="party">
+  <img src="photos/p21.jpg">
 </a>
 
 <a href="photos/p22.jpeg" data-lightbox="party">
