@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Play With Fire";
+  src: url("fonts/PlayWithFire.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "TIRES";
+  src: url("fonts/TIRES.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Starborn";
+  src: url("fonts/Starborn.ttf") format("truetype");
+}
+
+/* HEADER */
+.header-text {
+  font-family: "Play With Fire";
+  font-size: 60px;
+  color: #663399;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* MAIN MESSAGE */
+.birthday-text {
+  font-family: "TIRES";
+  font-size: 60px;
+  color: #32CD32;
+  text-align: center;
+  line-height: 1.2;
+  margin: 20px auto;
+  max-width: 90%;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+/* ACCENT TEXT */
+.accent-text {
+  font-family: "Starborn";
+  font-size: 50px;
+  color: #FFA500;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* CENTER IMAGES */
+.centered-img {
+  text-align: center;
+}
+
+/* Photo gallery grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 0 12px;
+}
+
+/* Gallery thumbnails */
+.gallery a img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery a img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+.video-item {
+    width: 100%;
+    max-width: 300px;  /* match your thumbnails */
+    margin: 0 auto;
+}

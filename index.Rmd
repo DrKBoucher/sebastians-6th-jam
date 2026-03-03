@@ -18,7 +18,7 @@ resource_files:
 
 <div class="birthday-text">
   Sebastian greatly appreciates you coming<br>
-  to celebrate his 6th birthday with him!
+  to celebrate his sixth birthday with him
 </div>
 
 <div class="accent-text">
